@@ -25,10 +25,14 @@ $ pip install Flask
 ```
 
 Initialize the database
+```
 $ flask --app flaskr init-db
+```
 
 Run in development server
+```
 $ flask --app flaskr --debug run
+```
 
 #### Project Directory:
 ```
