@@ -2,11 +2,13 @@
 #### Description:
 Weather web app created with Python, Flask and free weather.api.
 
-#### flaskr/__init__.py is The application factory with create_app function which creates Flask instance.
+#### flaskr/__init__.py 
+is The application factory with create_app function which creates Flask instance.
 In __init__.py we need to import and register any blueprint, in this case that would be blueprint from
 weather.py.
 
-#### flaskr/weather.py containes the blueprint for index view and function lookup() used to retrive data from weatherapi.
+#### flaskr/weather.py 
+containes the blueprint for index view and function lookup() used to retrive data from weatherapi.
 Views:
 Index:
 index() function renders the template with all the weather info retrieved from lookup json data.
