@@ -8,7 +8,7 @@ In __init__.py we need to import and register any blueprint, in this case that w
 weather.py.
 
 #### flaskr/weather.py 
-containes the blueprint for index view and function lookup() used to retrive data from weatherapi.
+containes the blueprint for index view and function lookup() used to retrieve data from weatherapi.
 Views:
 Index:
 index() function renders the template with all the weather info retrieved from lookup json data.
