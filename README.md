@@ -16,11 +16,13 @@ index() function renders the template with all the weather info retrieved from l
 
 #### Installation:
 Install with pip (windows):
+```
 $ pip install -r requirements.txt
 $ pip3 install virtualenv
-$py -3 -m venv venv
-$venv\Scripts\activate
-$pip install Flask
+$ py -3 -m venv venv
+$ venv\Scripts\activate
+$ pip install Flask
+```
 
 Initialize the database
 $ flask --app flaskr init-db
